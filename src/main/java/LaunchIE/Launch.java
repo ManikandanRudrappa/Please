@@ -12,7 +12,7 @@ public class Launch {
 	@Test
 	public void test() 
 	{
-		System.setProperty("webdriver.ie.driver", "D:\\Eclipse_Workspace\\IE\\driver\\IEDriverServer.exe");  
+		System.setProperty("webdriver.ie.driver", "./driver/IEDriverServer.exe");  
 		   WebDriver driver=new InternetExplorerDriver();
 		   driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 
